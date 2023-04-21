@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Good Sun</title>
+        <link rel = "stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/87b0a4a779.js" ></script>
+    </head>
+    <body id="main">
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt="Zero One's Logo"></a>
+        
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li id="bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span></span></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+
+                
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span></span></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+        <section id="cartTable">
+            <table width = "100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody id="purshasedProduct">
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add">
+            <div id="subtotal">
+            <h3>cart Totals:</h3>
+            <table id="total-cash">
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td><span>$</span><strong id="total-price">0</strong></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>+10%</td>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><span>$</span><strong id="fee">0</strong></td>
+                    </tr>
+                </tr>
+            </table>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="John Smith" id="fullname" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label >Email</label>
+                    <input type="email" placeholder="John@mail.com" id="email" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label>Address</label>
+                    <input type="adress" placeholder="Country - City - Street name" id="address"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label>Banck Account Number</label>
+                    <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx" id="bank"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button class="normal checkOut">Buy</button>
+            </form>
+            
+        </div>
+        </section>
+        <footer class="section-p1">
+            <div class="col">
+                <img src="img/logowhite.png" alt="" style="width: 100px;">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong>1278 -8th St.- NewYork</p>
+                <p><strong>Phone: </strong>+01 2 47 854 122</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class = "row">
+                    <img src="img/App/appstore.jpg" alt="">
+                    <img src="img/App/googleplay.jpg" alt="">
+                </div>
+                <p>Our payment methods</p>
+                <img src="img/App/payment.png" alt="">
+            </div>
+        </footer>
+        <section id="copywrite">
+                <p>© 2023 Karam Dali for WBP homework Damascus in 03/24/2023.</p>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
